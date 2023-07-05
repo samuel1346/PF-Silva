@@ -10,7 +10,6 @@
     list-style: none;
 }
 
-
 body::-webkit-scrollbar{
     width: 5px;
     background:rgb(198, 209, 211, 0.1);
@@ -41,9 +40,9 @@ background-image: url(../imagenes/v60.png);
 .navBstrap{
     background-color: rgb(198, 209, 211);
 }
- /*
+ 
 
-.navWeb{
+/*.navWeb{
 background-color: rgb(198, 209, 211, 0.96);
 grid-area: navWeb;
 position: fixed;
@@ -135,6 +134,7 @@ margin: 0.1em;
     scroll-padding: 24px;
     gap: 8px;
     border-radius: 8px;
+    background-color: rgb(198, 209, 211, 0.9);
 
 }
 .divScroll::-webkit-scrollbar{
@@ -159,6 +159,7 @@ margin: 0.1em;
     justify-content: space-around;
     width: 100%;
     padding: 0.8em;
+    list-style: none;
 }
 
 .redIcon{
@@ -357,5 +358,29 @@ grid-row: 3/7;
     }
     .footerDondeEstamos{
         grid-area: pie;
+    }
+    /*trabaja con nosotros*/
+    .trabajaConNosotros{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: auto;
+        grid-template-areas:
+        "navTrabajo"
+        "headerTrabajo"
+        "mainTrabajo"
+        "footerTrabajo"
+        ;
+    }
+    .navBstrap{
+        grid-area: navTrabajo;
+    }
+    .headerTrabajo{
+        grid-area: headerTrabajo;
+    }
+    .mainTrabajo{
+        grid-area:mainTrabajo;
+    }
+    .footerWeb{
+        grid-area: footerTrabajo;
     }
 }
