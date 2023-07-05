@@ -278,12 +278,14 @@ grid-row: 3/7;
 .mapNieva{
     border-radius: 0.8em;
     border: solid rgb(15, 15, 15,) 0.5em;
+    position: relative;
+    overflow: hidden;
 }
 
 
 /*responsive*/
 
-@media (width < 700px){
+@media (width < 550px){
     .bodyIndex{
         display: grid;
         grid-template-columns: 1fr;
