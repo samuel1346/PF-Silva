@@ -288,44 +288,38 @@ grid-row: 3/7;
 
 @media (width < 700px){
     .bodyIndex{
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: 1fr;
-    grid-template-areas: 
-    "navWeb" 
-    "headerImg" 
-    "mainIndex" 
-    "asideIndex" 
-    "footerWeb"
-    ;
-} 
-.navBstrap{
-    grid-area: navWeb;
-    grid-column: 1/8;
-}
-.indexTitle{
-    font-size: 1.4em;
-}
-.headerImg{
-    grid-area: headerImg;
-}
-.imgIndex{
-    height: 300px;
-}
-.mainIndex{
-    grid-area: mainIndex;
-}
-.mainArt{
-    width: fit-content;
-    text-align: center;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: auto;
+        grid-template-areas: 
+        "navWeb" 
+        "headerImg" 
+        "mainIndex" 
+        "asideIndex" 
+        "footerWeb";
+    } 
+    .navWeb{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
-.asideIndex{
-    grid-area: asideIndex;
-}
-.footerWeb{
-    grid-area: footerWeb;
-    grid-column: 4/4;
-}
+    .indexTitle{
+        font-size: 1.4em;
+    }
+    .navUl{
+        font-size: 1em;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        width: 100%;
+    }
+    .imgIndex{
+        height: 300px;
+    }
+    .mainArt{
+        width: fit-content;
+        text-align: center;
+    }
 
     /* donde estamos*/
     .bodyDondeEstamos{
@@ -339,7 +333,7 @@ grid-row: 3/7;
         "mapa"
         "pie"; 
     }
-    .navBstrap{
+    .navGridResponsive{
         grid-area: navegador;
     }
     .headerDondeEstamos{
@@ -362,31 +356,8 @@ grid-row: 3/7;
         align-items:end;
         margin-top: 7em;
     }
-    .footerWeb{
+    .footerDondeEstamos{
         grid-area: pie;
     }
-    /*trabaja con nosotros*/
-    .trabajaConNosotros{
-        display: grid;
-        grid-template-columns: 1fr;
-        grid-template-rows: auto;
-        grid-template-areas:
-        "navTrabajo"
-        "headerTrabajo"
-        "mainTrabajo"
-        "footerTrabajo"
-        ;
-    }
-    .navBstrap{
-        grid-area: navTrabajo;
-    }
-    .headerTrabajo{
-        grid-area: headerTrabajo;
-    }
-    .mainTrabajo{
-        grid-area:mainTrabajo;
-    }
-    .footerWeb{
-        grid-area: footerTrabajo;
-    }
 }
+
