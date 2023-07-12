@@ -1,0 +1,74 @@
+
+.imgIndex{
+    width: 100%;
+    height: 38em;
+    box-shadow:5px 5px 5px  $bordersColor;
+    margin:0%;
+    border: solid $bordersColor;
+}
+
+
+/*main*/
+
+.mainIndex{
+    margin: 8em;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.mainArt{
+    width: 50%;
+    background-color: $mainColor;
+    margin: auto;
+    padding: 1em;
+    border-radius: 20px;
+    text-align: center;
+}
+
+/*aside*/
+
+.asideIndex{
+    width: 100%;
+    height: 30em;
+    overflow: hidden;
+    text-align: center;
+}
+.divText{
+    display: flex;
+    justify-content: center;
+}
+.asideTitle{
+    font-size: 1.5em;
+    font-weight: bolder;
+    text-align: center;
+    margin: 10px;
+    padding: 10px;
+    background-color: rgb(198, 209, 211, 0.96);
+    width: fit-content;
+    border-radius: 6px;
+}
+
+.divScroll{
+    width: 100%;
+    height: 400px;
+    padding:1.6em;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    overflow-x: scroll;
+    scroll-snap-type:x mandatory;
+    scroll-padding: 24px;
+    gap: 8px;
+    border-radius: 8px;
+    background-color: rgb(198, 209, 211, 0.9);
+
+}
+.divScroll::-webkit-scrollbar{
+    width: 7px;
+}
+.divScroll::-webkit-scrollbar-thumb{
+    border-radius: 10px;
+    background-color:rgb(198, 209, 211, 0.96);
+    border: solid 2px rgb(15, 15, 15, 0.7);
+}
