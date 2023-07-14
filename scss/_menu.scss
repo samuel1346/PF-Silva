@@ -1,8 +1,32 @@
-.menuImg{
+.menuGalery{
     display: flex;
     flex-direction: row;
-    justify-content: baseline;
-    height: 800px;
-    width: 400px;
-    object-fit: cover;
+    height: 750px;
+    width:550px ;
+    margin: 2em;
+    img{
+        display: flex;
+        width: 270px;
+        flex-grow: 1;
+        border: solid $bordersColor 5px;
+        object-fit: cover;
+        transition: 0.5s;
+        opacity: .98;
+    }
+    img:hover{
+        width: 550px;
+        filter: contrast(100%);
+        opacity: 1;
+    }
 }
+
+.menuHeader p{
+        font-size: large;
+        font-weight: bolder;
+        background-color: $mainColor;
+        padding: 0.5em;
+        margin: 1em;
+        width: fit-content;
+        border-radius: 5px;
+}
+
