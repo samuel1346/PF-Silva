@@ -1,5 +1,13 @@
 .footerWeb{
     background-color: $mainColor;
+    p{
+        font-size: large;
+        font-weight: bold;
+        margin: .6em;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
 }
 .redIcon{
     display: flex;

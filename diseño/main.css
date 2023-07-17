@@ -6,6 +6,14 @@
 .footerWeb {
   background-color: rgba(198, 209, 211, 0.96);
 }
+.footerWeb p {
+  font-size: large;
+  font-weight: bold;
+  margin: 0.6em;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
 
 .redIcon {
   display: flex;
@@ -76,14 +84,19 @@
   justify-content: space-between;
   overflow-x: scroll;
   scroll-snap-type: x mandatory;
-  scroll-padding: 24px;
-  gap: 8px;
+  scroll-padding: 10px;
+  gap: 3px;
   border-radius: 8px;
   background-color: rgba(198, 209, 211, 0.9);
+}
+.divScroll img {
+  border-radius: 10px;
+  border: solid rgba(15, 15, 15, 0.9) 2px;
 }
 
 .divScroll::-webkit-scrollbar {
   width: 7px;
+  height: 9px;
 }
 
 .divScroll::-webkit-scrollbar-thumb {
@@ -122,6 +135,26 @@
   margin: 1em;
   width: fit-content;
   border-radius: 5px;
+}
+
+.mainProductos img {
+  object-fit: cover;
+  width: 330px;
+  height: 540px;
+  filter: contrast(120%);
+}
+
+header p {
+  font-size: larger;
+  font-weight: bold;
+  margin: 2em;
+  width: fit-content;
+  background-color: rgba(198, 209, 211, 0.96);
+}
+
+.carouselProduct {
+  width: 330px;
+  height: 540px;
 }
 
 .mainTrabajo {
@@ -265,10 +298,12 @@ body {
   background-image: url(../imagenes/v60.png);
   background-repeat: repeat;
   background-color: rgba(198, 209, 211, 0.96);
+  box-sizing: border-box;
 }
 
-@media (width < 700px) {
+@media (width < 450px) {
   body {
+    width: 100%;
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: auto;

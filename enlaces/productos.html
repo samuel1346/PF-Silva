@@ -3,27 +3,133 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Nieva en Cameros-El ritual del café</title>
-    <link rel="shortcut icon" href="./imagenes/favicon.ico" type="image/x-icon">
-    <link rel="stylesheet" href="./diseño/diseño.css">
+    <link rel="shortcut icon" href="../imagenes/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="../diseño/main.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" 
+    integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/887a835504.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+     crossorigin="anonymous">
+   </script>
 </head>
 <body>
-    <nav>
-        <a href="index.html" class="indexTitle">Nieva en Cameros</a>
-        <ul class="text-li">
-            <li><a href="menu.html">Menú</a></li>
-            <li><a href="productos.html">Productos</a></li>
-            <li><a href="donde_estamos.html">Donde estamos</a></li>
-            <li><a href="trabaja_con_nosotros.html">trabaja con nosotros</a></li>
-        </ul>
-    </nav>
+    <nav class="navbar navbar-expand-lg navBstrap">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="../index.html">Nieva en Cameros</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="menu.html">Menu</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="productos.html">Productos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="donde_estamos.html">Donde estamos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="trabaja_con_nosotros.html">Trabajá con nosotros</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
 
     <header>
-        
+        <p>Cuartos de café que tenemos en stock tostados por <a class="nav-link" href="#">Fuego tostadores</a></p>
     </header>
 
-    <main>
+    <main class="mainProductos">
+        <div id="carouselExample" class="carousel slide w-25">
+            <div class="carousel-inner m-2">
+              <div class="carousel-item active">
+                <img src="../imagenes/huila1.jpg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="../imagenes/huila2.jpg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="../imagenes/huila3.jpg" class="d-block w-100" alt="...">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+          <div id="carouselExample" class="carousel slide w-25">
+            <div class="carousel-inner m-2">
+              <div class="carousel-item active">
+                <img src="../imagenes/huila1.jpg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="../imagenes/huila2.jpg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="../imagenes/huila3.jpg" class="d-block w-100" alt="...">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+          <div id="carouselExample" class="carousel slide w-25">
+            <div class="carousel-inner m-2">
+              <div class="carousel-item active">
+                <img src="../imagenes/huila1.jpg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="../imagenes/huila2.jpg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="../imagenes/huila3.jpg" class="d-block w-100" alt="...">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+          <div id="carouselExample" class="carousel slide w-25">
+            <div class="carousel-inner m-2">
+              <div class="carousel-item active">
+                <img src="../imagenes/huila1.jpg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="../imagenes/huila2.jpg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="../imagenes/huila3.jpg" class="d-block w-100" alt="...">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
         
     </main>
  
@@ -31,12 +137,12 @@
         
     </aside>
  
-    <footer>
-        
+    <footer class="footerWeb">
+        <p>*Contactate con nosotros a travez de nuestras redes</p>
         <div class="redIcon">
-        <a href="https://www.facebook.com" target="_blank"><img src="./imagenes/facebook.png" alt="facebook" class="footerIcon"></a>
-        <a href="https://www.instagram.com/nievacafe_/" target="_blank"><img src="./imagenes/icons8-instagram-50.png" alt="instagram" class="footerIcon"></a>
-        <a href="https://www.samielnsilva@gmail.com" target="_blank"><img src="./imagenes/gmail.png" alt="gmail" class="footerIcon"></a>
+        <a href="https://www.facebook.com" target="_blank"><img src="../imagenes/facebook.png" alt="facebook" class="footerIcon"></a>
+        <a href="https://www.instagram.com/nievacafe_/" target="_blank"><img src="../imagenes/icons8-instagram-50.png" alt="instagram" class="footerIcon"></a>
+        <a href="https://www.samielnsilva@gmail.com" target="_blank"><img src="../imagenes/gmail.png" alt="gmail" class="footerIcon"></a>
         </div>
     </footer>
 </body>

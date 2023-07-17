@@ -30,10 +30,12 @@ body{
 background-image: url(../imagenes/v60.png);   
  background-repeat:repeat;
  background-color: $mainColor;
+ box-sizing: border-box;
 } 
 @media(width<$breakPoints){
 
     body{
+        width: 100%;
         display:grid;
         grid-template-columns: 1fr;
         grid-template-rows: auto;

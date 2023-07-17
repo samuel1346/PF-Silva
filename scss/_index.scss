@@ -58,14 +58,19 @@
     justify-content: space-between;
     overflow-x: scroll;
     scroll-snap-type:x mandatory;
-    scroll-padding: 24px;
-    gap: 8px;
+    scroll-padding: 10px;
+    gap: 3px;
     border-radius: 8px;
     background-color: rgb(198, 209, 211, 0.9);
+    img{
+        border-radius: 10px;
+        border: solid $bordersColor 2px;
+    }
 
 }
 .divScroll::-webkit-scrollbar{
     width: 7px;
+    height: 9px;
 }
 .divScroll::-webkit-scrollbar-thumb{
     border-radius: 10px;

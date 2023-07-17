@@ -1,0 +1,22 @@
+.mainProductos{
+    img{
+        object-fit: cover;
+        width: 330px;
+        height: 540px;
+        filter: contrast(120%);
+    }
+}
+
+header{
+    p{
+        font-size: larger;
+        font-weight: bold;
+        margin: 2em;
+        width: fit-content;
+        background-color: $mainColor;
+    }
+}
+.carouselProduct{
+    width: 330px;
+    height: 540px;
+}
