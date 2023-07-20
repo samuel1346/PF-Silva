@@ -1,22 +1,49 @@
-.mainProductos{
-    img{
-        object-fit: cover;
-        width: 330px;
-        height: 540px;
-        filter: contrast(120%);
+.mainProduct{
+    section{
+        display: flex;
+        flex-wrap: wrap;
+        background-color: $mainColor;
+        border-radius: 20px;
+        margin-bottom: 1em;
+        border: solid $bordersColor 3px;
+    
+    .divProduct{
+        margin: .5em;
+        width: 31%;
+        height: 50%;
+    
+    div{ 
+        width: 100%;
+        height: 100%;
+        img{
+            width: 100%;
+            height: 50%;
+            object-fit: fill;
+            border-radius: 6px;
+            margin-top: 1em;
+        }
+        p{
+            font-size: normal;
+            font-weight: bolder;
+            width: 100%;
+            height: 50%;
+            padding: .5em;
+            position: static;
+        }
+    }
+       }
     }
 }
 
 header{
     p{
-        font-size: larger;
-        font-weight: bold;
-        margin: 2em;
-        width: fit-content;
+        font-size: normal;
+        font-weight: bolder;
         background-color: $mainColor;
+        width: fit-content;
+        margin: 2%;
+        padding: 1%;
+        border: solid $bordersColor 2px;
+        border-radius: 10px;
     }
-}
-.carouselProduct{
-    width: 330px;
-    height: 540px;
 }
