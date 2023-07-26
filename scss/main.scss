@@ -27,10 +27,12 @@ body::-webkit-scrollbar-thumb{
     border-radius: 5px;
 }
 body{
-background-image: url(../imagenes/v60.png);   
+background-image: url(../imagenes/v60.jpg);   
  background-repeat:repeat;
  background-color: $secundaryColor;
  box-sizing: border-box;
+ width: 100%;
+ overflow-x: hidden;
 } 
 @media(width<$breakPoints){
 
@@ -85,7 +87,7 @@ background-image: url(../imagenes/v60.png);
 }
 .headerDondeEstamos{
     grid-area: mapa;
-    margin: 1em;
+    margin-top: 1em;
 }
 .mainDondeEstamos{
     grid-area: texto;

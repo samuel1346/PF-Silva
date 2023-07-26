@@ -169,6 +169,13 @@
   padding: 0.5em;
   position: static;
 }
+.mainProduct section .divProduct div p s {
+  border: solid rgba(15, 15, 15, 0.9) 2px;
+  border-radius: 30px;
+  background-color: rgba(204, 150, 69, 0.808);
+  margin: 4px;
+  font-size: larger;
+}
 
 header p {
   font-size: normal;
@@ -324,10 +331,12 @@ body::-webkit-scrollbar-thumb {
 }
 
 body {
-  background-image: url(../imagenes/v60.png);
+  background-image: url(../imagenes/v60.jpg);
   background-repeat: repeat;
   background-color: rgb(20, 20, 20);
   box-sizing: border-box;
+  width: 100%;
+  overflow-x: hidden;
 }
 
 @media (width < 450px) {
@@ -371,7 +380,7 @@ body {
   }
   .headerDondeEstamos {
     grid-area: mapa;
-    margin: 1em;
+    margin-top: 1em;
   }
   .mainDondeEstamos {
     grid-area: texto;

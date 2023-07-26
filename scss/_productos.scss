@@ -29,6 +29,13 @@
             height: 50%;
             padding: .5em;
             position: static;
+            s{
+                border:solid $bordersColor 2px;
+                border-radius: 30px;
+                background-color: rgba(204, 150, 69, 0.808);
+                margin: 4px;
+                font-size: larger;
+            }
         }
     }
        }
