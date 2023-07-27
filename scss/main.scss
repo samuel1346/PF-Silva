@@ -76,34 +76,30 @@ body{
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: auto;
     grid-template-areas: 
-    "navegador"
     "texto"
     "imagen"
-    "mapa"
-    "pie"; 
-}
-.navGridResponsive{
-    grid-area: navegador;
+    "mapa"; 
 }
 .headerDondeEstamos{
     grid-area: mapa;
     margin-top: 1em;
+    grid-column: 1/4;
+    margin-top: 10em;
 }
 .mainDondeEstamos{
     grid-area: texto;
     display: flex;
     flex-direction: column;
     align-items:start;
-    grid-row: 1/4;
-    width: 26%;
-    margin-top: 7em;
+    width: 100%;
+    margin-top: 3em;
 }
 .asideDondeEstamos{
     grid-area: imagen;
-    display: flex;
-    flex-direction: column;
-    align-items:end;
-    margin-top: 7em;
+    width: 100%;
+    margin-top: 3em;
+    grid-column: 2/4;
+    grid-row: 1/4;
 }
 /*trabaja con nosotros*/
 .parrafTrabajo{
