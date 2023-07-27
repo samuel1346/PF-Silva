@@ -331,7 +331,7 @@ body::-webkit-scrollbar-thumb {
 }
 
 body {
-  background-image: url(../imagenes/v60.jpg);
+  background-image: url("../imagenes/V60.jpg");
   background-repeat: repeat;
   background-color: rgb(20, 20, 20);
   box-sizing: border-box;
