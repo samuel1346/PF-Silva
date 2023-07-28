@@ -1,8 +1,5 @@
 # My first website
 
-[![Build Status](https://img.shields.io/travis/samuel1346/PreEntrega2Silva.svg)](https://travis-ci.org/samuel1346/)
-[![License](https://img.shields.io/badge/license-MIT-blue.svg)](https://opensource.org/licenses/MIT)
-
 ## Description
 As a barista, I wanted to create a website for my workplace, which currently doesn't have an online presence.
 This project is still a work in progress, and I'm enjoying the process of building it from scratch
