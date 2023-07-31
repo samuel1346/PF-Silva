@@ -8,10 +8,12 @@
         display: flex;
         width: 270px;
         flex-grow: 1;
-        border: solid $bordersColor 5px;
+        border: $backGroundText;
         object-fit: cover;
         transition: 0.5s;
         opacity: .98;
+        box-shadow:4px 4px 8px 8px;
+        background-image: linear-gradient(rgba(153, 210, 243, 0.9), $bordersColor);
     }
     img:hover{
         width: 550px;
@@ -20,13 +22,4 @@
      }
 }
 
-.menuHeader p{
-        font-size: large;
-        font-weight: bolder;
-        background-color: $mainColor;
-        padding: 0.5em;
-        margin: 1em;
-        width: fit-content;
-        border-radius: 5px;
-}
 

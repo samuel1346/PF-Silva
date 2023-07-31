@@ -2,9 +2,9 @@
 .imgIndex{
     width: 100%;
     height: 38em;
-    box-shadow:5px 5px 5px  $bordersColor;
+    box-shadow:8px 8px 8px 8px $bordersColor;
     margin:0%;
-    border: solid $bordersColor;
+    border: $backGroundText;
 }
 
 
@@ -24,13 +24,13 @@
     padding: 1em;
     border-radius: 20px;
     text-align: center;
+    box-shadow:8px 8px 8px 8px $bordersColor;
 }
 
 /*aside*/
 
 .asideIndex{
     width: 100%;
-    height: 30em;
     overflow: hidden;
     text-align: center;
 }
@@ -44,36 +44,28 @@
     text-align: center;
     margin: 10px;
     padding: 10px;
-    background-color: rgb(198, 209, 211, 0.96);
+    background-color: $mainColor;
     width: fit-content;
     border-radius: 6px;
+    box-shadow:4px 4px 8px 8px $bordersColor;
 }
 
 .divScroll{
     width: 100%;
-    height: 400px;
-    padding:1.6em;
-    margin: auto;
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
-    overflow-x: scroll;
-    scroll-snap-type:x mandatory;
-    scroll-padding: 15px;
-    gap: 4px;
-    border-radius: 8px;
-    background-color: rgb(198, 209, 211, 0.9);
+    padding: 1em;
+    box-shadow:4px 4px 8px 8px $bordersColor;
+    background-image: linear-gradient($mainColor, rgba(55, 78, 87, 0.76));
     img{
-        border-radius: 10px;
-        border: solid $bordersColor 2px;
+        border-radius: 15px;
+        border: $backGroundText;
+        object-fit: cover;
+        height: 300px;
+        width: 280px;
+        margin: .5em;
+        box-shadow:8px 8px 8px 8px $bordersColor;
     }
 
-}
-.divScroll::-webkit-scrollbar{
-    width: 7px;
-    height: 9px;
-}
-.divScroll::-webkit-scrollbar-thumb{
-    border-radius: 10px;
-    background-color:rgb(198, 209, 211, 0.96);
-    border: solid 2px rgb(15, 15, 15, 0.7);
 }

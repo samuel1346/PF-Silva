@@ -5,7 +5,7 @@
         background-color: $mainColor;
         border-radius: 20px;
         margin-bottom: 1em;
-        border: solid $bordersColor 3px;
+        border: $backGroundText;
     
     .divProduct{
         margin: .5em;
@@ -30,7 +30,7 @@
             padding: .5em;
             position: static;
             s{
-                border:solid $bordersColor 2px;
+                border: $backGroundText;
                 border-radius: 30px;
                 background-color: rgba(204, 150, 69, 0.808);
                 margin: 4px;
@@ -42,7 +42,7 @@
     }
 }
 
-header{
+.headerText{
     p{
         font-size: normal;
         font-weight: bolder;
