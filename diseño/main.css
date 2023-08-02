@@ -1,0 +1,463 @@
+@import url("https://fonts.googleapis.com/css2?family=Geologica:wght@200&display=swap");
+.navBstrap {
+  background-color: rgba(198, 209, 211, 0.96);
+}
+
+.footerWeb {
+  background-color: rgba(198, 209, 211, 0.96);
+}
+.footerWeb p {
+  font-size: large;
+  font-weight: bold;
+  margin: 0.6em;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.redIcon {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 2em;
+}
+
+.footerIcon {
+  width: 50px;
+  height: 50px;
+}
+
+.imgIndex {
+  width: 100%;
+  height: 38em;
+  box-shadow: 8px 8px 8px 8px rgba(15, 15, 15, 0.9);
+  margin: 0%;
+  border: solid 3px rgba(15, 15, 15, 0.9);
+}
+
+/*main*/
+.mainIndex {
+  margin: 1em;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.mainArt {
+  width: 50%;
+  background-color: rgba(198, 209, 211, 0.96);
+  margin: auto;
+  padding: 1em;
+  border-radius: 20px;
+  text-align: center;
+  box-shadow: 8px 8px 8px 8px rgba(15, 15, 15, 0.9);
+}
+
+/*aside*/
+.asideIndex {
+  width: 100%;
+  overflow: hidden;
+  text-align: center;
+}
+
+.divText {
+  display: flex;
+  justify-content: center;
+}
+
+.asideTitle {
+  font-size: 1.5em;
+  font-weight: bolder;
+  text-align: center;
+  margin: 10px;
+  padding: 10px;
+  background-color: rgba(198, 209, 211, 0.96);
+  width: fit-content;
+  border-radius: 6px;
+  box-shadow: 4px 4px 8px 8px rgba(15, 15, 15, 0.9);
+}
+
+.divScroll {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 1em;
+  box-shadow: 4px 4px 8px 8px rgba(15, 15, 15, 0.9);
+  background-image: linear-gradient(rgba(198, 209, 211, 0.96), rgba(55, 78, 87, 0.76));
+}
+.divScroll img {
+  border-radius: 15px;
+  border: solid 3px rgba(15, 15, 15, 0.9);
+  object-fit: cover;
+  height: 300px;
+  width: 280px;
+  margin: 0.5em;
+  box-shadow: 8px 8px 8px 8px rgba(15, 15, 15, 0.9);
+}
+
+.menuGalery {
+  display: flex;
+  flex-direction: row;
+  height: 750px;
+  width: 550px;
+  margin: 2em;
+}
+.menuGalery img {
+  display: flex;
+  width: 270px;
+  flex-grow: 1;
+  border: solid 3px rgba(15, 15, 15, 0.9);
+  object-fit: cover;
+  transition: 0.5s;
+  opacity: 0.98;
+  box-shadow: 3px 3px 3px 3px;
+  background-image: linear-gradient(rgba(153, 210, 243, 0.9), rgba(15, 15, 15, 0.9));
+}
+.menuGalery img:hover {
+  width: 550px;
+  filter: contrast(100%);
+  opacity: 1;
+}
+
+.foodIlustration {
+  background-image: linear-gradient(rgba(198, 209, 211, 0.96), rgba(46, 83, 85, 0.9));
+  border: solid 3px rgba(15, 15, 15, 0.9);
+}
+.foodIlustration section {
+  display: flex;
+  width: 100%;
+  overflow-x: hidden;
+}
+.foodIlustration section img {
+  width: 50%;
+  height: 350px;
+  margin: 5px;
+  border: solid 3px rgba(15, 15, 15, 0.9);
+  border-radius: 5px;
+  box-shadow: 2px 2px 2px 2px rgba(15, 15, 15, 0.9);
+}
+.foodIlustration section p {
+  font-size: larger;
+  font-weight: bolder;
+  width: 45%;
+  padding: 2.5em;
+  display: flex;
+  justify-content: center;
+}
+
+.cuartosCafeHeader {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  height: 500px;
+}
+.cuartosCafeHeader section {
+  width: 50%;
+  height: 90%;
+}
+.cuartosCafeHeader section img {
+  width: 100%;
+  height: 100%;
+  box-shadow: 5px 5px 5px 5px rgba(15, 15, 15, 0.9);
+}
+
+.mainProduct section {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: rgba(198, 209, 211, 0.96);
+  border-radius: 20px;
+  margin-bottom: 1em;
+  border: solid 3px rgba(15, 15, 15, 0.9);
+}
+.mainProduct section .divProduct {
+  margin: 0.5em;
+  width: 31%;
+  height: 50%;
+}
+.mainProduct section .divProduct div {
+  width: 100%;
+  height: 100%;
+}
+.mainProduct section .divProduct div img {
+  width: 100%;
+  height: 50%;
+  object-fit: fill;
+  border-radius: 6px;
+  margin-top: 1em;
+}
+.mainProduct section .divProduct div p {
+  font-size: normal;
+  font-weight: bolder;
+  width: 100%;
+  height: 50%;
+  padding: 0.5em;
+  position: static;
+}
+.mainProduct section .divProduct div p s {
+  border: solid 3px rgba(15, 15, 15, 0.9);
+  border-radius: 30px;
+  background-color: rgba(204, 150, 69, 0.808);
+  margin: 4px;
+  font-size: larger;
+}
+
+.headerText p {
+  font-size: normal;
+  font-weight: bolder;
+  background-color: rgba(198, 209, 211, 0.96);
+  width: fit-content;
+  margin: 2%;
+  padding: 1%;
+  border: solid rgba(15, 15, 15, 0.9) 2px;
+  border-radius: 10px;
+}
+
+.mainTrabajo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.sectionForm {
+  display: flex;
+  justify-content: center;
+  width: fit-content;
+  background-color: rgba(198, 209, 211, 0.96);
+  border-radius: 20px;
+  margin-bottom: 1em;
+}
+
+.formMain {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  margin-bottom: 1em;
+  padding: 1em;
+  width: 320px;
+  height: 490px;
+  font-size: large;
+}
+
+.parrafTrabajo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: fit-content;
+  height: fit-content;
+  margin: 2em;
+  font-size: xx-large;
+  background-color: rgba(198, 209, 211, 0.96);
+  border-radius: 6px;
+  box-shadow: 8px 8px 8px 8px rgba(15, 15, 15, 0.9);
+}
+
+.imgTrabajo {
+  width: 100%;
+  height: 41em;
+  border: solid 3px rgba(15, 15, 15, 0.9);
+  object-fit: cover;
+  box-shadow: 8px 8px 8px 8px rgba(15, 15, 15, 0.9);
+}
+
+input {
+  border-radius: 6px;
+  border: solid rgba(15, 15, 15, 0.9);
+}
+
+.filetype {
+  width: 5px;
+}
+
+.bodyDondeEstamos {
+  margin-top: 4em;
+  height: 650px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: auto;
+  grid-template-areas: "mapa" "texto" "imagen";
+}
+
+.headerDondeEstamos {
+  grid-area: mapa;
+  grid-column: 1/3;
+  grid-row: 3/7;
+}
+
+.mainDondeEstamos {
+  grid-area: texto;
+  grid-column: 3/4;
+  grid-row: 3/7;
+  padding: 0.5em;
+}
+
+.mainDondeEstamos p {
+  width: 100%;
+  font-size: large;
+  font-weight: bolder;
+  background-color: rgba(198, 209, 211, 0.96);
+}
+
+.asideDondeEstamos {
+  grid-area: imagen;
+  grid-column: 4/4;
+  grid-row: 3/7;
+  padding: 0.5em;
+}
+
+.asideDondeEstamos img {
+  width: 100%;
+  height: 25%;
+  object-fit: cover;
+  margin-bottom: 1em;
+  border: solid 0.5em rgba(15, 15, 15, 0.9);
+  border-radius: 6px;
+  overflow: hidden;
+}
+
+.mapNieva {
+  border-radius: 0.4em;
+  position: relative;
+  overflow: hidden;
+}
+
+section iframe {
+  width: 100%;
+  height: 400px;
+}
+
+* {
+  font-family: "Geologica", sans-serif;
+  color: rgb(19, 18, 18);
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+  object-fit: cover;
+}
+
+body::-webkit-scrollbar {
+  width: 5px;
+  background: rgba(198, 209, 211, 0.96);
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: rgba(198, 209, 211, 0.96);
+  border-radius: 5px;
+}
+
+body {
+  background-image: url("../imagenes/V60.jpg");
+  background-repeat: repeat;
+  background-color: rgb(163, 129, 79);
+  box-sizing: border-box;
+  width: 100%;
+  overflow-x: hidden;
+}
+
+@media (width < 450px) {
+  body {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    grid-template-areas: "nav" "header" "main" "aside" "footer";
+  }
+  header {
+    grid-area: header;
+  }
+  main {
+    grid-area: main;
+  }
+  aside {
+    grid-area: aside;
+  }
+  footer {
+    grid-area: footer;
+  }
+  .imgIndex {
+    height: 300px;
+  }
+  .mainArt {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: fit-content;
+  }
+  /*donde estamos*/
+  .bodyDondeEstamos {
+    height: auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: auto;
+    grid-template-areas: "texto" "imagen" "mapa";
+  }
+  .headerDondeEstamos {
+    grid-area: mapa;
+    margin-top: 1em;
+    grid-column: 1/4;
+    margin-top: 10em;
+  }
+  .mainDondeEstamos {
+    grid-area: texto;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    width: 100%;
+    margin-top: 2em;
+  }
+  .asideDondeEstamos {
+    grid-area: imagen;
+    width: 100%;
+    margin-top: 2em;
+    grid-column: 2/4;
+    grid-row: 1/4;
+  }
+  /*trabaja con nosotros*/
+  .parrafTrabajo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: fit-content;
+    height: fit-content;
+    margin: 2em;
+    font-size: xx-large;
+    background-color: rgba(198, 209, 211, 0.96);
+  }
+  /*menu*/
+  .menuGalery {
+    width: 100%;
+    height: 700px;
+    margin: 0;
+    flex-direction: column;
+  }
+  .menuGalery img {
+    width: 100%;
+    height: 10px;
+  }
+  .menuGalery img:hover {
+    width: 100%;
+    height: 600px;
+  }
+  /*productos*/
+  .mainProduct section {
+    width: 100%;
+  }
+  .mainProduct section .divProduct {
+    margin: 1em;
+    padding: 1em;
+    width: 100%;
+  }
+  .mainProduct section .divProduct div {
+    display: flex;
+  }
+  .mainProduct section .divProduct div img {
+    width: 50%;
+  }
+  .mainProduct section .divProduct div p {
+    font-size: small;
+  }
+}
+
+/*# sourceMappingURL=main.css.map */

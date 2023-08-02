@@ -1,0 +1,51 @@
+.menuGalery{
+    display: flex;
+    flex-direction: row;
+    height: 750px;
+    width:550px ;
+    margin: 2em;
+    img{
+        display: flex;
+        width: 270px;
+        flex-grow: 1;
+        border: $backGroundText;
+        object-fit: cover;
+        transition: 0.5s;
+        opacity: .98;
+        box-shadow:3px 3px 3px 3px;
+        background-image: linear-gradient(rgba(153, 210, 243, 0.9), $bordersColor);
+    
+      &:hover{
+        width: 550px;
+        filter: contrast(100%);
+        opacity: 1;
+      }
+    }
+}
+
+.foodIlustration{
+    background-image: linear-gradient($mainColor,rgba(46, 83, 85, 0.9));
+    border: $backGroundText;
+    section{
+        display: flex;
+        width: 100%;
+        overflow-x: hidden;
+        img{
+            width: 50%;
+            height: 350px;
+            margin: 5px;
+            border: $backGroundText;
+            border-radius:5px;
+            box-shadow:2px 2px 2px 2px $bordersColor;
+        }
+        p{
+            font-size: larger;
+            font-weight: bolder;
+            width: 45%;
+            padding: 2.5em;
+            display: flex;
+            justify-content: center;
+        }
+    }
+}
+

@@ -1,0 +1,71 @@
+
+.imgIndex{
+    width: 100%;
+    height: 38em;
+    box-shadow:8px 8px 8px 8px $bordersColor;
+    margin:0%;
+    border: $backGroundText;
+}
+
+
+/*main*/
+
+.mainIndex{
+    margin: 1em;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.mainArt{
+    width: 50%;
+    background-color: $mainColor;
+    margin: auto;
+    padding: 1em;
+    border-radius: 20px;
+    text-align: center;
+    box-shadow:8px 8px 8px 8px $bordersColor;
+}
+
+/*aside*/
+
+.asideIndex{
+    width: 100%;
+    overflow: hidden;
+    text-align: center;
+}
+.divText{
+    display: flex;
+    justify-content: center;
+}
+.asideTitle{
+    font-size: 1.5em;
+    font-weight: bolder;
+    text-align: center;
+    margin: 10px;
+    padding: 10px;
+    background-color: $mainColor;
+    width: fit-content;
+    border-radius: 6px;
+    box-shadow:4px 4px 8px 8px $bordersColor;
+}
+
+.divScroll{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 1em;
+    box-shadow:4px 4px 8px 8px $bordersColor;
+    background-image: linear-gradient($mainColor, rgba(55, 78, 87, 0.76));
+    img{
+        border-radius: 15px;
+        border: $backGroundText;
+        object-fit: cover;
+        height: 300px;
+        width: 280px;
+        margin: .5em;
+        box-shadow:8px 8px 8px 8px $bordersColor;
+    }
+
+}

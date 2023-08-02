@@ -1,0 +1,24 @@
+{
+  "name": "proyecto_web",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "sass": "sass",
+		"sass:watch": "sass --watch scss/main.scss  diseño/main.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/samuel1346/segundaEntrega.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/samuel1346/segundaEntrega/issues"
+  },
+  "homepage": "https://github.com/samuel1346/segundaEntrega#readme",
+  "dependencies": {
+    "sass": "^1.63.6"
+  }
+}

@@ -1,0 +1,54 @@
+.bodyDondeEstamos{
+    margin-top: 4em;
+    height: 650px;
+    display: grid;
+    grid-template-columns:repeat(4, 1fr);
+    grid-template-rows:auto;
+    grid-template-areas: 
+    "mapa"
+    "texto" 
+    "imagen";
+    }
+    .headerDondeEstamos{
+    grid-area: mapa;
+    grid-column: 1/3;
+    grid-row: 3/7;
+    }
+    .mainDondeEstamos{
+    grid-area: texto;
+    grid-column: 3/4;
+    grid-row: 3/7;
+    padding: 0.5em;
+    }
+    .mainDondeEstamos p{
+        width: 100%;
+        font-size: large;
+        font-weight: bolder;
+        background-color: $mainColor;
+    }
+    .asideDondeEstamos{
+    grid-area: imagen;
+    grid-column: 4/4;
+    grid-row: 3/7;
+    padding: 0.5em;
+    }
+    .asideDondeEstamos img{
+        width: 100%;
+        height: 25%;
+        object-fit: cover;
+        margin-bottom: 1em;
+        border: solid 0.5em $bordersColor;
+        border-radius: 6px;
+        overflow: hidden;
+    }
+    .mapNieva{
+        border-radius: 0.4em;
+        position: relative;
+        overflow: hidden;
+    }
+    section{
+        iframe{
+        width: 100%;
+        height: 400px;
+        }
+    }
